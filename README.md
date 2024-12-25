@@ -5,6 +5,8 @@ Data Scraping from youtube based on the genre
 2. Run the script ytGenreScrapper.py :
 ```ruby
    python ytGenreScrapper.py
+```
+```
    Enter the genre to search:
    > <Enter the Genre>
    Enter the number of videos to scrape:
