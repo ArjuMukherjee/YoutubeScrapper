@@ -15,7 +15,7 @@ class VideoScrapper:
     def clean_text(self, str):
         new_str = ''
         for c in str:
-            if c == '\n' or c == '(' or c == ')' or c == '|' or not (c.isalpha() or c == ' '):
+            if c == '\n' or c == '(' or c == ')' or c == '|' or not (c.isalpha() or c == ' ' or c == '.' or c == '@'):
                 continue
             new_str += c
         return new_str.strip()
